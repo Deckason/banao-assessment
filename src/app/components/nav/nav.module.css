@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;
     z-index: 99;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .2);
 }
 
 .logo{
@@ -93,7 +94,8 @@
 .exploreSubMenue{
     display: none;
     position: absolute;
-    top: calc(100% + 24px);
+    top: 100%;
+    padding-top: 24px;
     left: 0;
     width: 200px;
     background: #FFFFFF;
