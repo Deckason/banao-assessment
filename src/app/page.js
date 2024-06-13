@@ -3,7 +3,7 @@ import Nav from './components/nav/Nav'
 import Hero from './components/hero/Hero'
 import Features from './components/features/Features'
 import Testimonial from './components/testimonial/Testimonial'
-import Testimonial2 from './components/testimonial/testimonial2'
+import Testimonial2 from './components/testimonial/Testimonial2'
 import End from './components/end/End'
 import Footer from './components/footer/Footer'
 
