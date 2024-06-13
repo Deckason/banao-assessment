@@ -1,0 +1,166 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section{
+    width: 100%;
+}
+
+.upperSec{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    width: calc(100% / 4);
+    padding: 1rem;
+}
+
+.title{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    color: #08090A;
+    margin-bottom: .5rem;
+    }
+    
+.linkContainer a{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    color: #08090A;
+}
+
+.lowerSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F5F9;
+    padding: 1rem;
+}
+
+.lowerSec small{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    color: #000;
+}
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.socialLinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialLinks span{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBEDF0;
+    border-radius: 50%;
+    padding: .3rem;
+}
+
+.socialLinks span .icon{
+    background: transparent;
+    color: #6D747A;
+    height: 100%;
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #8064A2
+}
+
+.input input, .input button{
+    height: 100%;
+}
+
+.input input{
+    width: 80%;
+}
+
+.input button{
+    width: 20%;
+}
+
+.input input::placeholder{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #939CA3;
+    padding-left: .5rem;
+}
+
+.input button{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    background: #8064A2;
+    height: 40px;
+}
+
+.expand{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .expand{
+        display: flex;
+        cursor: pointer;
+        font-size: large;
+    }
+    
+    .upperSec{
+        flex-direction: column;
+    }
+
+    .linkContainer{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socialContainer{
+        gap: 2rem;
+    }
+
+    .lowerSec small{
+        font-size: 12px;
+    }
+}

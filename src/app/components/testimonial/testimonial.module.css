@@ -1,0 +1,172 @@
+.container{
+    background: #F7FDFF;
+    padding: 5rem;
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #CED4DA;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 8px;
+}
+
+.card2{
+    border: none !important;
+}
+
+.title{
+    display: flex;
+    gap: 2rem;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #08090A;
+}
+
+.icon{
+    color: #0096C8;
+    width: 40px;
+    height: 40px;
+}
+.icon2{
+    background: #8064A2;
+    color: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.content p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+
+.card button{
+    width: auto;
+    color: #8064A2;
+    background: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 12px 29px;
+    border-radius: 8px;
+    border: 1px solid #8064A2;
+    }
+    
+    .media{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .audio{
+    /* border: 1px solid red; */
+    width: 70%;
+    }
+
+    .audio audio{
+        width: 100%;
+    }
+    
+.profilePic{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.profDetail{
+    width: auto;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+    
+.img{
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+        
+.header{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.header h4{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #0096C8;
+
+}
+.header h3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #8064A2;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 2rem;
+    }
+
+    .card button{
+        font-size: 12px;
+    }
+
+    .title{
+        display: flex;
+        gap: 1rem;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    .content p{
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .media, .audio, .profilePic{
+        width: 100%;
+    }
+
+    .media{
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .profilePic{
+        align-items: center;
+    }
+
+    .img{
+        max-height: 70px;
+    }
+}

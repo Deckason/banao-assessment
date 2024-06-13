@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 5rem;
+}
+
+.card{
+    border: 1px solid #CED4DA;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.title{
+    display: flex;
+    gap: 2rem;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000000;
+}
+
+.title .icon{
+    width: 40px;
+    height: 40px;
+
+}
+
+.content p{
+    color: #000000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.card button{
+    border: 1px solid #8064A2;
+    background: #FFFFFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    width: 122px;
+    height: 40px;
+    border-radius: 8px;
+    color: #8064A2;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    background: #F7FDFF;
+    padding: 2rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+.title h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.hobby{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 54px;
+    color: #8064A2;
+}
+
+.community{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 54px;
+    color: #0096C8;
+}
+
+.title button{
+    background: #8064A2;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+    align-self: flex-start;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.llustration{
+    width: 100%;
+    }
+    
+@media screen and (max-width: 768px) {
+
+    .title h2, .title span{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .title button{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+}
