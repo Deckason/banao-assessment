@@ -6,9 +6,9 @@ import { BsCalendarCheckFill } from "react-icons/bs";
 const Features = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.card}>
+      <div className={`${styles.card} ${styles.people}`}>
         <div className={styles.title}>
-            <span><MdGroups className={styles.icon} style={{color: "#8064A2"}}/></span>
+            <span><MdGroups className={styles.icon}/></span>
             <h3>People</h3>
         </div>
         <div className={styles.content}>
@@ -16,9 +16,9 @@ const Features = () => {
         </div>
         <button>Connect</button>
       </div>
-      <div className={styles.card}>
+      <div className={`${styles.card} ${styles.place}`}>
         <div className={styles.title}>
-            <span><MdPlace className={styles.icon} style={{color: "#77933C"}}/></span>
+            <span><MdPlace className={styles.icon}/></span>
             <h3>Place</h3>
         </div>
         <div className={styles.content}>
@@ -26,9 +26,9 @@ const Features = () => {
         </div>
         <button>Meet up</button>
       </div>
-      <div className={styles.card}>
+      <div className={`${styles.card} ${styles.product}`}>
         <div className={styles.title}>
-            <span><MdShoppingBasket className={styles.icon} style={{color: "#C0504D"}}/></span>
+            <span><MdShoppingBasket className={styles.icon}/></span>
             <h3>Product</h3>
         </div>
         <div className={styles.content}>
@@ -36,9 +36,9 @@ const Features = () => {
         </div>
         <button>Get it</button>
       </div>
-      <div className={styles.card}>
+      <div className={`${styles.card} ${styles.program}`}>
         <div className={styles.title}>
-            <span><BsCalendarCheckFill className={styles.icon} style={{color: "#0096C8"}}/></span>
+            <span><BsCalendarCheckFill className={styles.icon}/></span>
             <h3>Program</h3>
         </div>
         <div className={styles.content}>

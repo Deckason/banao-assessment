@@ -17,6 +17,43 @@
     gap: 1.5rem;
 }
 
+.card:hover{
+    cursor: pointer;
+}
+
+.people .icon{
+    color: #8064A2;
+}
+
+.card:hover .icon,
+.card:hover .title h3,
+.card:hover .content p{
+    color: #fff;
+}
+
+.place .icon{
+    color: #77933C;
+}
+.product .icon{
+    color: #C0504D;
+}
+.program .icon{
+    color: #0096C8;
+}
+
+.people:hover{
+    background: #8064A2;
+}
+.place:hover{
+    background: #77933C;
+}
+.product:hover{
+    background: #C0504D;
+}
+.program:hover{
+    background: #0096C8;
+}
+
 .title{
     display: flex;
     gap: 2rem;
